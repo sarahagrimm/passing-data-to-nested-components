@@ -12,5 +12,9 @@ export class ParentComponent {
     
     constructor(){}
 
+    onNotify() {
+        console.log(this.childTitle);
+    }
+
    
 }
